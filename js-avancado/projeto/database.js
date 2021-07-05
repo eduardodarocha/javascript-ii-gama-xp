@@ -3,7 +3,7 @@ const livros = [
         id: 1,
         nome: "Digital Minimalism",
         autor:"Cal Newport",
-        categoria: "Produtividade e estilo de vida",
+        categoria: "Produtividade",
         paginas: 254,
         recomenda: false,
         leu: false
@@ -20,7 +20,7 @@ const livros = [
     { 
         id: 3,
         nome: "As veias abertas da américa latina",
-        autor:"Eduardo galeano",
+        autor:"Eduardo Galeano",
         categoria: "Américas",
         paginas: 400,
         recomenda: false,
@@ -52,6 +52,24 @@ const livros = [
         paginas: 231,
         recomenda: true,
         leu: true
+    },
+    { 
+        id: 7,
+        nome: "A Triade Do Tempo",
+        autor:"Christian Barbosa",
+        categoria: "Produtividade",
+        paginas: 378,
+        recomenda: true,
+        leu: false
+    },
+    { 
+        id: 8,
+        nome: "Aplicações web real-time com Node.js",
+        autor:"Caio Ribeiro Pereira",
+        categoria: "Tecnologia",
+        paginas: 205,
+        recomenda: true,
+        leu: false
     }
 ]
 

@@ -1,7 +1,6 @@
 {
   "name": "projeto",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -11,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "description": ""
 }

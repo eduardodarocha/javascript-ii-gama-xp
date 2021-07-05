@@ -5,3 +5,10 @@ for (let i = 0; i <= 100; i++){
         console.log(i)
     }
 }
+let cont = 0;
+while (cont <= 100) {
+    if (cont % 2 === 0) {
+        console.log(cont)        
+    }
+    cont += 1;
+}

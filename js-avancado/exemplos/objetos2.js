@@ -1,3 +1,4 @@
+//Array com vários objetos
 const filmes = [
     { 
         id: 1,
@@ -19,6 +20,8 @@ const filmes = [
     },
 ]
 
+// Como desestruturar objetos passando os valores do objeto para as os nomes dos atributos
 const [{id, titulo, descricao, duracao}]  = filmes
 
-filmes.map(filme => console.log(filme.descricao))
+filmes.map(filme => console.log(filme1.descricao))
+filmes.map(filmeTitle => console.log(filmeTitle.titulo))

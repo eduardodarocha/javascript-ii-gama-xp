@@ -1,8 +1,9 @@
-# Lógica aplicada com Javascript - Gama Experience 🚀
+# 🚀 Lógica aplicada com Javascript - [Gama Academy Experience](https://www.gama.academy/) 
 
-<br>
+# HiringCoders#2 - [VTEX](https://vtex.com/br-pt/)
 
 ## Javascript avançado
+
 - Template string
 - Operador ternário
 - Arrow functions
@@ -12,19 +13,23 @@
 - Projetinho
 
 ---
+
 ## Como rodar javascript fora do navegador
+
 * Hello World no terminal do vs code
 * 3 formas de rodar um arquivo .js com node (direto no terminal, run em um arquivo e extensão code runner.)
 
 ---
 ## Ferramenta extra: Readline-sync
+
 - Readline-sync é um pacote maravilhoso para pegar inputs no terminal, ou seja pegar entradas de dados no sistema. Se você veio de programação front-end isso equivale a pegar o value do input de um usuário num formulário.
 
- - Dentro da pasta de seu projetinho instale digitando o comando no terminal: npm install readline-sync
+- Dentro da pasta de seu projetinho instale digitando o comando no terminal: npm install readline-sync
 
 ---
 
-# 1. Template String
+## 1. Template String
+
 ### Conceito
 O ES6 trouxe uma nova forma de unir strings com expressões javascript, o Template String ou Template Literals.
 
@@ -38,7 +43,8 @@ let role = "transformadora"
 console.log(`Simara é ${role} na Gama Academy`) // Simara é transformadora na Gama Academy.
 ```
 
-# 2. Operador ternário
+## 2. Operador ternário
+
 ### Conceito
 Você pode usar o operador ternário do JavaScript para tornar o seu código mais resumido.
 Ele é uma alternativa ao if...else, entenda:
@@ -51,7 +57,7 @@ em vez de:
 if(x % 2 === 0) {
     return 'Par'
 } else {
-    retunr 'Impar'
+    return 'Impar'
 }
 
 use: 
@@ -65,7 +71,8 @@ O operando teste é uma expressão que é avaliada como um valor booleano true o
 
 Os operandos verdadeiro e falso são expressões de qualquer tipo.
 
-# 3. Arrow functions
+## 3. Arrow functions
+
 ### Conceito
 O ES6 também trouxe uma forma menos verbosa de escrever funções. São as famosas Arrow Functions, por causa da sintaxe que lembra uma flecha: () =>.
 
@@ -82,7 +89,8 @@ const soma = (a,b) => a + b
 
 Arrow functions são excelentes para trabalharmos com funções anônimas e callbacks (são funções passadas como argumentos dentro de outras funções a fim de serem utilizadas em um momento posterior).
 
-# 4. Arrays, Operador spread e métodos de iteração
+## 4. Arrays, Operador spread e métodos de iteração
+
 ### Conceito
 
 Um array (ou lista) permite armazenar um conjunto de dados e atribuí-los a uma variável, sendo esta a estrutura de dados mais simples possível.
@@ -107,7 +115,7 @@ console.log(alunasGama[1]) // Estela
 console.log(alunasGama[2]) // Mariana
 ```
 
-### Spread Operator 
+### Spread Operator
 
 ### Conceito
 Ele é representado por três pontos. Spread significa espalhar, ou seja, este operador é usado para ‘espalhar’ os elementos de um array quando interpretado em tempo de execução.
@@ -136,7 +144,7 @@ console.log(array); // ['h', 'e',' l',' l', 'o']
 
 Existem muitos outros métodos, continue seu aprendizado!
 
-# 5. Objetos e Destructuring
+## 5. Objetos e Destructuring
 
 ### Conceito
 
@@ -190,36 +198,36 @@ console.log(altura) // 40.6
 MDN: [destructuring assignment](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
 
 
-# 6. SPA, PWA e WebComponents
+## 6. SPA, PWA e WebComponents
 Agora, vamos falar de SPA, PWA e Webcomponents que são alguns conceitos da programação web atual. Dessa vez não colocaremos a mão no código, nessa aula diferente apenas com conceitos, vamos falar muito sobre mudar a nossa forma de pensar aplicações web.  
 
-6.1 SPA
+  - 6.1 SPA
 
-Single page applications são aplicações que concentram seu conteúdo em apenas uma página. O que isso quer dizer? Ela possui o super poder de atualizar apenas uma parte da página para renderizar novos dados, em vez de atualizar a página inteira.
+  Single page applications são aplicações que concentram seu conteúdo em apenas uma página. O que isso quer dizer? Ela possui o super poder de atualizar apenas uma parte da página para renderizar novos dados, em vez de atualizar a página inteira.
 
-O que usar para construir Single Page Applications?
-No mercado diversas ferramentas como frameworks e bibliotecas facilitam a criação de SPA. Alguns dos mais conhecidos são: Angular, React e Vue. Eles são baseados em JavaScript e trabalham com o conceito de componentes.
+  O que usar para construir Single Page Applications?
+  No mercado diversas ferramentas como frameworks e bibliotecas facilitam a criação de SPA. Alguns dos mais conhecidos são: Angular, React e Vue. Eles são baseados em JavaScript e trabalham com o conceito de componentes.
 
 
-6.2 PWA 
+  - 6.2 PWA 
 
-Progressive Web Apps são aplicações híbridas entre web e mobile. Ou seja, permite que ao acessar um site, a pessoa usuária possa ter uma versão instalada em seu celular com a mesma experiência da web, porém com as informações do browser removidas.
+    Progressive Web Apps são aplicações híbridas entre web e mobile. Ou seja, permite que ao acessar um site, a pessoa usuária possa ter uma versão instalada em seu celular com a mesma experiência da web, porém com as informações do browser removidas.
 
-PWA são diferentes de aplicativos nativos, pois eles não podem ser encontrados nas lojas de aplicativos. E geralmente, são construídos com poucas alterações no código original: html, css e javascript. 
+  PWA são diferentes de aplicativos nativos, pois eles não podem ser encontrados nas lojas de aplicativos. E geralmente, são construídos com poucas alterações no código original: html, css e javascript. 
 
-Mas por outro lado, dá pr acessar de offline e ainda usar algumas caracteristicas como por exemplo o push notification.
+  Mas por outro lado, dá pr acessar de offline e ainda usar algumas caracteristicas como por exemplo o push notification.
 
-Dá pra construir PWA com Angular, React, Vue, Ionic entre outros.
+  Dá pra construir PWA com Angular, React, Vue, Ionic entre outros.
 
-6.3 WebComponents
+- 6.3 WebComponents
 
-Os Web Components são uma forma de criar componentes reutilizáveis para a Web nativamente, utilizando apenas HTML, CSS e JavaScript. E carregam os benefícios de códigos menores, modulares e reutilizáveis.
+  Os Web Components são uma forma de criar componentes reutilizáveis para a Web nativamente, utilizando apenas HTML, CSS e JavaScript. E carregam os benefícios de códigos menores, modulares e reutilizáveis.
 
-Os Web Components possuem quatro fundamentos:
-- Custom Elements: Permite a criação de novas tags HTML.
-- Shadow DOM: Permite esconder elementos do DOM. Eles são renderizados pelo navegador e não são acessíveis pelas formas convencionais (document.querySelector).
-- HTML Templates: Permite declarar fragmentos de HTML para serem utilizados como modelo. Eles não são renderizados pelo navegador.
-- HTML Imports: Permite importar páginas HTML completas, incluindo o JavaScript e CSS embutidos nelas.
+  Os Web Components possuem quatro fundamentos:
+    - Custom Elements: Permite a criação de novas tags HTML.
+    - Shadow DOM: Permite esconder elementos do DOM. Eles são renderizados pelo navegador e não são acessíveis pelas formas convencionais (document.querySelector).
+    - HTML Templates: Permite declarar fragmentos de HTML para serem utilizados como modelo. Eles não são renderizados pelo navegador.
+    - HTML Imports: Permite importar páginas HTML completas, incluindo o JavaScript e CSS embutidos nelas.
 
 Você pode usar o stencilJS que faz parte do Ionic Framework.
 ---

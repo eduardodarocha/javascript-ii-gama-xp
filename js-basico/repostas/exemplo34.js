@@ -10,7 +10,7 @@ function calculaMedia(nota1,nota2,nota3) {
         return 'Aprovado'
     }
 
-    if (media >=5 && media<7) {
+    if (media >= 5 && media < 7) {
         return 'Recuperação'
     }
 
@@ -20,3 +20,5 @@ function calculaMedia(nota1,nota2,nota3) {
 }
 
 console.log(calculaMedia(8,5,8))
+console.log(calculaMedia(7,5,5))
+console.log(calculaMedia(4,3,5))
